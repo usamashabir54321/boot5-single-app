@@ -116,7 +116,7 @@
 			}
 		},
 		mounted () {
-			setTimeout(() => { this.is_prelod = false; },1000);
+			setTimeout(() => { this.is_prelod = false; },200);
 		},
 		methods: {
 			goMyPage (comp_name) {this.actve_comp = comp_name;},
