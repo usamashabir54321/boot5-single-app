@@ -102,7 +102,6 @@
 		<script src="/assets/js/isotope.pkgd.min.js"></script>
 		<script src="/assets/js/packery-mode.pkgd.min.js"> </script>
 		<script src="/assets/js/countUp.umd.js"> </script>
-		<script src="/assets/js/BigPicture.js"></script>
 
 	</main>
 </template>
