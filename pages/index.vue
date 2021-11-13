@@ -95,13 +95,13 @@
 		<section class="page p-0" v-if="actve_comp == 'contact'" id="contact"><LazyPageContact @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
 
 		<script src="/assets/js/bootstrap.js"></script>
-		<script src="/assets/js/anchor.js"></script>
-		<script src="/assets/js/lodash.min.js"></script>
-		<script src="/assets/js/imagesloaded.pkgd.js"></script>
-		<script src="/assets/js/theme.js"></script>
-		<script src="/assets/js/isotope.pkgd.min.js"></script>
-		<script src="/assets/js/packery-mode.pkgd.min.js"> </script>
-		<script src="/assets/js/countUp.umd.js"> </script>
+		<script src="/assets/js/anchor.js" defer></script>
+		<script src="/assets/js/lodash.min.js" defer></script>
+		<script src="/assets/js/imagesloaded.pkgd.js" defer></script>
+		<script src="/assets/js/theme.js" defer></script>
+		<script src="/assets/js/isotope.pkgd.min.js" defer></script>
+		<script src="/assets/js/packery-mode.pkgd.min.js" defer></script>
+		<script src="/assets/js/countUp.umd.js" defer></script>
 
 	</main>
 </template>
