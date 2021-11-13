@@ -80,7 +80,7 @@
 		</div>
 
 			<!-- PORTFOLIO PAGE -->
-		<section class="page p-0" v-if="actve_comp == 'portfolio'" id="portfolio"><PagePortfolio @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
+		<section class="page p-0" :class="actve_comp == 'portfolio' ? '' : 'd-none'" id="portfolio"><PagePortfolio @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
 			<!-- ABOUT PAGE -->
 		<section class="p-0 page" v-if="actve_comp == 'about'" id="about"><LazyPageAbout @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
 			<!-- SERVICES PAGE -->
