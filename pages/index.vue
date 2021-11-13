@@ -8,7 +8,7 @@
 			<!-- HOME INDEX PAGE PART - 1 -->
 		<div class="offcanvas offcanvas-start home-content" :class="!actve_comp ? 'show' : ''" id="offcanvasStart">
 			<div class="bg-holder overlay overlay-youtube" style="background-image:url(assets/img/header-split-youtube-backgroundd.png);">
-				<iframe v-show="!is_prelod" class="yt-video loaded" style="width: 1160px; height: 852.5px; min-height: 1349px; min-width: 1864.89px;" width="640" height="560" src="https://www.youtube.com/embed/HHBsvKnCkwI?&autoplay=1&loop=1&rel=0&showinfo=0&color=white&controls=0&playlist=HHBsvKnCkwI&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe v-show="!is_prelod" class="yt-video loaded" style="width: 1160px; height: 852.5px; min-height: 1349px; min-width: 1864.89px;" width="640" height="560" src="https://www.youtube.com/embed/efHyAyT4Fko?&autoplay=1&loop=1&rel=0&showinfo=0&color=white&controls=0&playlist=efHyAyT4Fko&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 			<!--/.bg-holder-->
 			<div class="offcanvas-body d-flex flex-center">
