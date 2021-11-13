@@ -80,19 +80,19 @@
 		</div>
 
 			<!-- PORTFOLIO PAGE -->
-		<section class="page p-0" :class="actve_comp == 'portfolio' ? '' : 'd-none'" id="portfolio"><PagePortfolio @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
+		<section class="page p-0" v-if="actve_comp == 'portfolio'" id="portfolio"><PagePortfolio @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
 			<!-- ABOUT PAGE -->
-		<section class="p-0 page" :class="actve_comp == 'about' ? '' : 'd-none'" id="about"><LazyPageAbout @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
+		<section class="p-0 page" v-if="actve_comp == 'about'" id="about"><LazyPageAbout @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
 			<!-- SERVICES PAGE -->
-		<section class="p-0 page" :class="actve_comp == 'services' ? '' : 'd-none'" id="services"><LazyPageServices @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
+		<section class="p-0 page" v-if="actve_comp == 'services'" id="services"><LazyPageServices @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
 			<!-- GALLERY PAGE -->
-		<section class="p-0 page" :class="actve_comp == 'gallery' ? '' : 'd-none'" id="gallery"><LazyPageGallery @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
+		<section class="p-0 page" v-if="actve_comp == 'gallery'" id="gallery"><LazyPageGallery @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
 			<!-- BLOG PAGE -->
-		<section class="p-0 page" :class="actve_comp == 'blogs' ? '' : 'd-none'" id="blogs"><LazyPageBlogs @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
+		<section class="p-0 page" v-if="actve_comp == 'blogs'" id="blogs"><LazyPageBlogs @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
 			<!-- FAQ PAGE -->
-		<section class="p-0 page" :class="actve_comp == 'faq' ? '' : 'd-none'" id="faq"><LazyPageFaq @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
+		<section class="p-0 page" v-if="actve_comp == 'faq'" id="faq"><LazyPageFaq @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
 			<!-- CONTACT PAGE -->
-		<section class="page p-0" :class="actve_comp == 'contact' ? '' : 'd-none'" id="contact"><LazyPageContact @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
+		<section class="page p-0" v-if="actve_comp == 'contact'" id="contact"><LazyPageContact @goIndex="actve_comp = ''" @goPage="goMyPage"/></section>
 
 		<script src="/assets/js/bootstrap.js"></script>
 		<script src="/assets/js/anchor.js"></script>
